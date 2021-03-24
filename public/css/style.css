@@ -1,4 +1,4 @@
-section:not(:nth-last-child) {
+section:not(:last-of-type) {
     border-bottom: 2px solid black;
 }
 
@@ -40,7 +40,7 @@ section {
 /* début exo 03 les_focus_03 */
 
 .border_color:focus {
-    border: 5px solid blue;
+    border: 2px solid blue;
     border-radius:10px;
 }
 
@@ -92,7 +92,7 @@ section {
 }
 
 .transition_06:active {
-    margin: 300px;
+    margin-left: 300px;
 }
 
 /* fin exo 06 les transitions */
